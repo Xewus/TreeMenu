@@ -37,7 +37,7 @@
 Пример главной страницы со списком меню:
 ![index page](https://github.com/Xewus/TreeMenu/blob/main/index.png)
 ***
-Подтверждение получения данных в 1 запрос к Бд:
+Подтверждение получения данных в 1 запрос к БД:
 ![sql example](https://github.com/Xewus/TreeMenu/blob/main/sql.png)
 ***
 Пример админки:
