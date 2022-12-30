@@ -79,7 +79,7 @@ urlpatterns = [
     path('', include('example_app.urls', namespace='example_app'))
     ...
 ]
-
+```
 Применить миграции:
 ```
 python manage.py migrate
