@@ -78,7 +78,7 @@ TEMPLATES = [
         'DIRS': [TEMPLATES_DIR, TEMPLATES_MENU],
 ...
 ```
-Добавить `url` приложения в начало главного `url-роутера`:
+Добавить `url-роутер` приложения в начало главного `url-роутера`:
 ```
 urlpatterns = [
     path('menu/', include('menus.urls', namespace='menus')),
