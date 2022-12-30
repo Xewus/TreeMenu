@@ -6,11 +6,12 @@ def index_view(request: WSGIRequest):
     return render(request, 'index.html')
 
 
-def example_view(request: WSGIRequest):
+def electronica_view(request: WSGIRequest):
     return render(
         request,
-        'example.html',
+        'electronica.html',
         context={
-            'greating': 'Hello!'
+            'page_name': 'Электроника',
+            'catalog': 'Электроника'
         }
     )
