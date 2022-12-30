@@ -36,10 +36,13 @@
 ***
 Пример главной страницы со списком меню:
 ![index page](https://github.com/Xewus/TreeMenu/blob/main/index.png)
+***
 Подтверждение получения данных в 1 запрос к Бд:
 ![sql example](https://github.com/Xewus/TreeMenu/blob/main/sql.png)
+***
 Пример админки:
 ![admin page](https://github.com/Xewus/TreeMenu/blob/main/admin.png)
+***
 ### Инструкция по встраиванию
 
 Скачать код:
