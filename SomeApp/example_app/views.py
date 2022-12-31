@@ -6,12 +6,12 @@ def index_view(request: WSGIRequest):
     return render(request, 'index.html')
 
 
-def electronica_view(request: WSGIRequest):
+def computers_view(request: WSGIRequest):
     return render(
         request,
-        'electronica.html',
+        'computers.html',
         context={
-            'page_name': 'Электроника',
-            'catalog': 'Электроника'
+            'page_name': 'Компьютеры',
+            'menu': '/Электроника/Компьютеры'
         }
     )

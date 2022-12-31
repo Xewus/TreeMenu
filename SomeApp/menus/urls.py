@@ -1,10 +1,10 @@
 from django.urls import path
 
-from .views import catalog_view
+from .views import menu_view
 
 app_name = 'menus'
 
 urlpatterns = [
-    path('', view=catalog_view, name='main_menu'),
-    path('<path:url>', view=catalog_view, name='submenu'),
+    path('', view=menu_view, name='main_menu'),
+    path('<path:url>', view=menu_view, name='submenu'),
 ]
