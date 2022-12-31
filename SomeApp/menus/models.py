@@ -25,8 +25,8 @@ class MenuItem(Model):
         blank=True
     )
     url = CharField(
-        verbose_name='Уникальная ссылка на меню',
-        max_length=256,
+        verbose_name='Уникальная ссылка на пункт меню',
+        max_length=1024,
         unique=True,
         null=False,
         blank=True,
