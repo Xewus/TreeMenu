@@ -57,7 +57,7 @@
 
 Скачать код:
 ```
-git@github.com:Xewus/DimaTechLTD.git
+git@github.com:Xewus/TreeMenu.git
 ```
 Скопировать папку `*/Menu/menus` с приложением в ваш проект на одном уровне с остальными приложениями
 и вписать приложение в `INSTALLED_APPS`:
@@ -88,10 +88,6 @@ urlpatterns = [
     ...
 ]
 ```
-Применить миграции:
-```
-python manage.py migrate
-```
 Вписать в нужных местах  HTMLстраницы загрузку и использование тэга:
 ```
 ...
@@ -100,4 +96,7 @@ python manage.py migrate
 {% draw_menu catalog %}
 ...
 ```
-
+Применить миграции:
+```
+python manage.py migrate
+```
